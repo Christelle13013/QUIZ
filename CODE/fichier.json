@@ -1,0 +1,483 @@
+[
+{
+    "id" : 1,
+    "Question" : "Parmi les affirmations suivantes, laquelle est fausse ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Le header sert à indiquer l'en-tête de la page au navigateur",
+            "réponse_2" : "On trouve souvent les liens vers les réseaux sociaux et mentions légales dans le footer",
+            "réponse_3" : "Le style de la page web se pratique dans le html",
+            "réponse_4" : "Le contenu principal de la page se trouve dans la balise <main>"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : Le style d'une page web se gère dans un fichier CSS"
+},
+
+
+
+{
+    "id" : 2,
+    "Question" : "A quoi sert l'attribut alt de l'élément img ?",
+    "réponse" : [
+        {
+            "réponse_1" : "A donner une description de l'image si celle-ci ne peut pas s'afficher",
+            "réponse_2" : "A donner un lien alternatif vers l'image si le premier est cassé",
+            "réponse_3" : "A afficher une deuxième image si la première ne peut pas s'afficher",
+            "réponse_4" : "A afficher une image en format png"
+        }
+    ],
+    "bonne_reponse" : [
+        1
+    ],
+    "information" : "Réponse 1 : L'attribut alt sert à décrire l'image. Cela est essentiel dans le cas où l'image ne pourrait pas être affichée ainsi que pour les personnes mal voyantes ou non voyantes"
+},
+
+
+
+{
+    "id" : 3,
+    "Question" : "Parmi les éléments suivants, lesquels sont nativement des éléments Inline qui vont se mettre les uns à la suite des autressans prendre toute la largeur ?",
+    "réponse" : [
+        {
+            "réponse_1" : "main",
+            "réponse_2" : "span",
+            "réponse_3" : "a",
+            "réponse_4" : "p"
+        }
+    ],
+    "bonne_reponse" : [
+        2,
+        3
+    ],
+
+    "information" : "Réponses 2 et 3 : L'élément <main>, ainsi que <p>, tout comme <div> ou les headings, sont des éléments Block."
+},
+
+
+
+{
+    "id" : 4,
+    "Question" : "Quelle propriété appliquée sur un élément dans une mise en page Flexbox permet de modifier l'ordre des éléments en les réagençant sans modifier le html ?",
+    "réponse" : [
+        {
+            "réponse_1" : "flex-direction",
+            "réponse_2" : "align-items",
+            "réponse_3" : "order",
+            "réponse_4" : "flex"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : Flex-direction : permet de donner une orientation verticale ou horizontale à vos éléments. align-items, quant à lui, vous permet d'aligner vos éléments sur l'axe secondaire. Pour ce qui est de flex, il s'agit d'une propriété raccourcie qui permet notamment d'autoriser un élément à prendre plus de place que d'autres. C'est bien order qui permet de modifier l'ordre des éléments sans modifier le html."
+},
+
+
+
+{
+    "id" : 5,
+    "Question" : "Parmis les affirmations suivantes, laquelle est exacte ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Les unités fr fonctionnent exactement de la même manière que les pourcentages",
+            "réponse_2" : "Les gap permettent d'espacer les éléments entre eux dans les CSS Grids",
+            "réponse_3" : "On définit les colonnes avec grid-template-rows",
+            "réponse_4" : "Il est impossible de définir le point de départ d'un élément spécifique dans une grid"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : Les unités fr vont permettre de prendre toute la largeur de l'écran sans dépasser, malgré les différents padding et margin ; en cela, elles ne sont pas pareilles que les pourcentages. Pour leur part les gap, vont permettre d'espacer les éléments entre eux de manière simple. Les colonnes, quant à elles, sont définies par grid-temlate-columns et non grid-template-rows. Enfin, on peut définir le point de départ d'un élément spécifique avec grid-column-start."
+},
+
+
+
+{
+    "id" : 6,
+    "Question" : "Qu'elles sont les options offertes par la propriété display ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Transformer un élément inline en élément block",
+            "réponse_2" : "Cacher entièrement un élément",
+            "réponse_3" : "Profiter des avantages de l'inline et de ceux des block",
+            "réponse_4" : "Superposer des éléments"
+        }
+    ],
+    "bonne_reponse" : [
+        1,
+        2,
+        3
+    ],
+    "information" : "Réponses 1, 2 et 3 : La propriété display est pleine de ressources et encore tout ce qu'elle permet n'est pas couvert par cette question. Elle permet notamment de transformer un élément inline en un élément block et inversement. On peut également cacher un élément avec display:none et enfin, display:inline-bloc permet de profiter du meilleur des deux mondes. En revanche c'est position qui permet de superposer des éléments."
+},
+
+
+
+{
+    "id" : 7,
+    "Question" : "Qu'elles phrases ci-dessous sont vraie au sujet des constantes ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Une fois déclarées, leur valeur ne peut être modifiée",
+            "réponse_2" : "On peut déclarer une constante sans l'initialisser",
+            "réponse_3" : "Elles peuvent être utiles pour éviter les erreurs et comportements inattentdus",
+            "réponse_4" : "Leur type peut-être modifié après déclaration"
+        }
+    ],
+    "bonne_reponse" : [
+        1,
+        2
+    ],
+    "information" : "Réponses 1 et 2 : Les constantes peuvent aider à éviter les erreurs et comportements inattendus, car elles ne peuvent pas être modifiées accidentellement. On ne peut pas déclarer une constante sans l'initialiser et son type ne peut être modifié."
+},
+
+
+
+{
+    "id" : 8,
+    "Question" : "En JavaScript, un objet est déclaré comme une liste de paires clé/valeur entre...",
+    "réponse" : [
+        {
+            "réponse_1" : "{} accolades",
+            "réponse_2" : "[] crochets",
+            "réponse_3" : "() parenthèses",
+            "réponse_4" : "aucune des réponses ci-dessus"
+        }
+    ],
+    "bonne_reponse" : [
+        1
+    ],
+    "information" : "Réponse 1 : Les objets sont déclarés entre accolades {}."
+},
+
+
+
+{
+    "id" : 9,
+    "Question" : "On déclare un array (tableau) comme une liste d'éléments, séparés par des virgules entre...",
+    "réponse" : [
+        {
+            "réponse_1" : "{} accolades",
+            "réponse_2" : "[] crochets",
+            "réponse_3" : "() parenthèses",
+            "réponse_4" : "aucune des réponses ci-dessus"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : On déclare un array entre crochets []."
+},
+
+
+
+{
+    "id" : 10,
+    "Question" : "Comment feriez-vous pour calculer le nombre d'éléments dans l'array onliUsers ?",
+    "réponse" : [
+        {
+            "réponse_1" : "let numberOfUsers = onlinUsers.size;",
+            "réponse_2" : "let numberOfUsers = onlineUsers.quanttity;",
+            "réponse_3" : "let numberOfUsers = onlineUsers.index;",
+            "réponse_4" : "let numberOfUsers = onlineUsers.lenght;"
+        }
+    ],
+    "bonne_reponse" : [
+        4
+    ],
+    "information" : "Réponse 4 : La propriété lenght d'un array correspond au nombre d'éléments qu'il contient."
+},
+
+
+
+{
+    "id" : 11,
+    "Question" : "Quelles propositions correspondent à des types primitifs en JavaScript ?",
+    "réponse" : [
+        {
+            "réponse_1" : "String",
+            "réponse_2" : "Array",
+            "réponse_3" : "Number",
+            "réponse_4" : "Boolean"
+        }
+    ],
+    "bonne_reponse" : [
+        1,
+        3,
+        4
+    ],
+    "information" : "Réponses 1, 3 et 4 : Les trois types primitifs les plus courants en JavaScript sont string, number et boolean. Les array sont des types plus complexes."
+},
+
+
+
+{
+    "id" : 12,
+    "Question" : "Parmi les propositions suivantes, laquelle correspond à une déclaration et une initialisation de variable valable ?",
+    "réponse" : [
+        {
+            "réponse_1" : "let my variable = 12;",
+            "réponse_2" : "let myVariable = 12;",
+            "réponse_3" : "variable myVariable = 12;",
+            "réponse_4" : "let 12 = myVariable;"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : La déclaration et l'initialisation de variables valables nécessite le mot-clé let, le nom de la variable (en un seul mot), l'opérateur d'assignation =, la valeur souhaitée pour la variable et un point-virgule ; (dans cet ordre)."
+},
+
+
+
+{
+    "id" : 13,
+    "Question" : "Quel est l'unité de 'unsigned' ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Déclarer un plugin sans certificat",
+            "réponse_2" : "Prendre la valeur absolue d'un nombre",
+            "réponse_3" : "n'existe pas en JavaScript",
+            "réponse_4" : "Déclarer un entier non signé"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : L'unité 'unsigned' n'existe pas en JavaScript"
+},
+
+
+
+{
+    "id" : 14,
+    "Question" : "Quelle propriété CSS utilise t-on pour 'coller' les bordures d'un tableau ?",
+    "réponse" : [
+        {
+            "réponse_1" : "La propriété border",
+            "réponse_2" : "La propriété border-radius",
+            "réponse_3" : "La propriété border-collapse",
+            "réponse_4" : "La propriété border solid"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : On utilise la propriété CSS border-collapse et sa valeur 'collapse' afin de coller les bordures des cellules de notre tableau entre elles."
+},
+
+
+
+{
+    "id" : 15,
+    "Question" : "Quel élément HTML sert à définir une ligne d'en tête pour notre tableau ?",
+    "réponse" : [
+        {
+            "réponse_1" : "L'élément tr",
+            "réponse_2" : "L'élément th",
+            "réponse_3" : "L'élément thead",
+            "réponse_4" : "L'élément td"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : L'élément th sert spécifiquement à définir une ligne d'en tête dans un tableau. L'élément thead, lui, est utiilsé pour structurer un tableau en le séparant en différentes parties."
+},
+
+
+
+{
+    "id" : 16,
+    "Question" : "Lequel de ces attributs permet de faire se répéter en boucle une piste audio ou une vidéo ?",
+    "réponse" : [
+        {
+            "réponse_1" : "L'attribut preload",
+            "réponse_2" : "L'attribut loop",
+            "réponse_3" : "L'attribut autoplay",
+            "réponse_4" : "L'attribut play"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : L'attribut preload sert à précharger un fichier audio ou vidéo tandis que autoplay sert à lancer automatiquement un fichier audio ou vidéo dès que celui-ci est chargé."
+},
+
+
+
+{
+    "id" : 17,
+    "Question" : "A quoi sert un préfixe vendeur ?",
+    "réponse" : [
+        {
+            "réponse_1" : "A vendre plus pour un site e-commerce",
+            "réponse_2" : "A forcer la compatibilité d'une propriété CSS pour certaines versions de certains navigateurs",
+            "réponse_3" : "A créer des dégradés pour tous les navigateurs",
+            "réponse_4" : "A créer des dégradés seulement pour Microsoft Edge"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : Les préfixes vendeurs vont pouvoir être utilisés afin que d'anciennes versions de certains navigateurs puissent lire certaines propriétés CSS récentes."
+},
+
+
+
+{
+    "id" : 18,
+    "Question" : "Quel est le préfixe vendeur de Mozilla Firefox ?",
+    "réponse" : [
+        {
+            "réponse_1" : "-webkit-",
+            "réponse_2" : "-o-",
+            "réponse_3" : "-moz-",
+            "réponse_4" : "-mozilla-"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : -webkit- est la préfixe utilisé pour Chrome et Safari tandis que -o- est le préfixe pour le navigateur Opéra."
+},
+
+
+
+{
+    "id" : 19,
+    "Question" : "Le séléecteur CSS étoile (*) sert à...",
+    "réponse" : [
+        {
+            "réponse_1" : "Appliquer des bordures aux éléments",
+            "réponse_2" : "Sélectionner tous les éléments d'une page HTML",
+            "réponse_3" : "Sélectionner un élément possédant un attribut en particulier",
+            "réponse_4" : "Sélectionner tous les éléments d'un body"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : Le sélecteur étoile est également appelé 'sélecteur CSS universel' car il sert à cibler tous les éléments HTML d'une page d'un coup."
+},
+
+
+
+{
+    "id" : 20,
+    "Question" : "Le sélecteur div + p sert à sélectionner...",
+    "réponse" : [
+        {
+            "réponse_1" : "Le premier élément p enfant d'un div",
+            "réponse_2" : "Tous les éléments p enfants dans un div",
+            "réponse_3" : "Tous les éléments p suivants un div (et de même niveau)",
+            "réponse_4" : "Tous les éléments p petit-enfant d'un div"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3. Le sélecteur div + p sert à sélectionner tous les éléments p suivants directement un div dans notre page et étant de même niveau. Pour sélectionner tous les paragraphes dans nos div, nous utiliserons le sélecteur div p."
+},
+
+
+
+{
+    "id" : 21,
+    "Question" : "Lequel de ces éléments HTML sert à définir un formulaire ?",
+    "réponse" : [
+        {
+            "réponse_1" : "L'élément form",
+            "réponse_2" : "L'élément input",
+            "réponse_3" : "L'élément label",
+            "réponse_4" : "L'élément defer"
+        }
+    ],
+    "bonne_reponse" : [
+        1
+    ],
+    "information" : "Réponse 1 : L'élément form sert à définir un formulaire en HTML."
+},
+
+
+
+{
+    "id" : 22,
+    "Question" : "L'élément form doit obligatoirement être accompagné...",
+    "réponse" : [
+        {
+            "réponse_1" : "D'un attribut method",
+            "réponse_2" : "D'un attribut action",
+            "réponse_3" : "De deux attributs method et action",
+            "réponse_4" : "Aucun des deux"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : Pour qu'on formulaire fonctionne correctement, vous devez préciser deux attributs method et action dans la balise ouvrante de votre élément form."
+},
+
+
+
+{
+    "id" : 23,
+    "Question" : "Laquelle de ces trois écirtures est correcte",
+    "réponse" : [
+        {
+            "réponse_1" : "@media screen and max-width = 680px",
+            "réponse_2" : "@media screen and (max-width: 680px)",
+            "réponse_3" : "@media screen and (max-width = 680px)",
+            "réponse_4" : "@media screen and (min-max-width: 680px)"
+        }
+    ],
+    "bonne_reponse" : [
+        2
+    ],
+    "information" : "Réponse 2 : On n'utilise jamais le signe égal en CSS pour définir une taille. Faites bien attention aux parenthèses en utilisant les media queries !"
+},
+
+
+
+{
+    "id" : 24,
+    "Question" : "Lorsqu'on utilise des valeurs en pourcentage pour redimensionner un élément en CSS, la valeur donnée à un élément dépend...",
+    "réponse" : [
+        {
+            "réponse_1" : "De sa taille de départ",
+            "réponse_2" : "De la taille de la fenêtre",
+            "réponse_3" : "De la taille de son élément parent",
+            "réponse_4" : "De la taille de son élément enfant"
+        }
+    ],
+    "bonne_reponse" : [
+        3
+    ],
+    "information" : "Réponse 3 : Lorsqu'on applique une valeur relative à un élément en CSS pour le redimensionner, le pourcentage donné est toujours un pourcentage de la taille de son élément parent."
+},
+
+
+
+{
+    "id" : 25,
+    "Question" : "Pourquoi utiliser des sprites d'images ?",
+    "réponse" : [
+        {
+            "réponse_1" : "Pour diminuer le nombre de requêtes envoyées au serveur",
+            "réponse_2" : "Par simplicité pour insérer des images",
+            "réponse_3" : "Car cela crée des images plus jolies",
+            "réponse_4" : "Pour gérer la taille des images"
+        }
+    ],
+    "bonne_reponse" : [
+        1
+    ],
+    "information" : "Réponse 1 : On utilise les sprites d'images afin de diminuer le nombre de requêtes envoyées au serveur et ainsi d'optimiser la vitesse de nos sites."
+}
+
+
+]

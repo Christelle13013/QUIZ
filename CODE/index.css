@@ -1,0 +1,136 @@
+html {
+    background-color: #f7f5f2;
+}
+
+.titre-formation {
+color: #154c79;
+}
+
+.span-titre {
+color: #d9682c;
+}
+
+.phrase-intro {
+    text-align: center;
+    color: #154c79;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+}
+
+.navbar {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.titre_nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div_titre_nav {
+    padding-top: 0%;
+    padding-left: 2%;
+    background-color: #009CA6;
+}
+
+.bar {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.div_section_nav {
+    border: solid #009CA6;
+    background-color: #009CA6;
+    opacity: 0.85;
+    height: 100px;
+    /*position: sticky;*/
+}
+
+/**************************Haut de page avec navbar**********************/
+.main_titre {
+    text-align: center;
+    color: #154c79;
+}
+
+.form {
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0%;
+}
+
+.input {
+    text-align: center;
+}
+
+.button {
+    padding-top: 1%;
+}
+
+/********************************button********************************/
+.favoritestyled {
+    border: 0;
+    color:#FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #009CA6;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+}
+
+.favoritestyled:hover {
+    background-color: #009CA6;
+}
+
+.favoritestyled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+/*****************************************fin*de*form*****************/
+.block {
+    border: solid #154c79;
+    margin: 10px 20px 20px 20px;
+    padding-right: 10px;
+    padding-left: 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.choix{
+    list-style: none;
+}
+
+.titre_reponse {
+    padding-right: 10px;
+    padding-left: 5px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: justify;
+}
+
+span {
+    color: red;
+}
+/******************************************************************/
+.footer {
+    font-size: x-small;
+}
+/***************************RESPONSIVE****************************/
+@media screen and (min-width:640px) {
+    .phrase-intro {
+        font-size: 2em;
+    }
+}
+
